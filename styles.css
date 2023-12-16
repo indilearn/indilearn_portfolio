@@ -1,5 +1,5 @@
 .Heading {
-  display: flex;
+    display: flex;
   flex-direction: column;
   flex-wrap: wrap;
   width: 100%;
@@ -28,6 +28,7 @@
   padding: 10px;
   background-color: #7f7b71;
   border-radius: 5px;
+  margin-bottom: 2px;
 }
 .nav ul,
 a {
@@ -40,4 +41,62 @@ a {
 .nav a:hover {
   font-weight: 800;
   color: black;
+}
+#outer{
+  height:600px;
+  border-radius:5px ;
+  margin-top: 5px;
+  display: flex;
+  background-color:#0000FE;
+}
+.image-box{
+  width: 58%;
+  height: 100%;
+  box-sizing: border-box;
+}
+.image-box img{
+  height:100%;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+#join-box{
+  
+  width: 40%;
+  height: 92%;
+
+  border-radius: 40px;
+  padding:20px;
+  box-sizing: border-box;
+  background-color: white;
+  margin-top:20px ;
+  
+  align-items: center;    
+}
+#join-box h1{
+  text-align: center;
+
+  color:#0000FE;
+  align-items: center;
+  font-weight: 1200;
+  
+  text-transform: uppercase;  
+}
+
+.inu {
+  border-radius: 5px;
+  border: 1px solid lightgray;
+  height: 20px;
+
+}
+.button{
+  
+  padding: 12px;
+  border: 1px ;
+  border-radius: 5px;
+  font-size: large;
+  background-color: #0000FE;
+  color: white;
+  cursor: pointer;
+  
 }
